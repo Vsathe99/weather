@@ -195,7 +195,7 @@ class Weather extends React.Component {
     } else {
       return (
         <React.Fragment>
-          <img src={loader} style={{ width: "50%", WebkitUserDrag: "none" }} />
+          <img src={loader} style={{ width: "50%", WebkitUserDrag: "none" }} alt="loader"/>
           <h3 style={{ color: "white", fontSize: "22px", fontWeight: "600" }}>
             Detecting your location
           </h3>
